@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Black+Ops+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #FF8000;
+    color: #26130E;
+    font-family: 'Bitter', serif;
+    position: relative;
+    isolation: isolate;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='700' viewBox='0 0 1000 700'%3E%3Crect width='1000' height='700' fill='%23FF8000'/%3E%3Cg fill='%234b251c' stroke='%2326130E' stroke-width='12'%3E%3Crect x='420' y='190' width='470' height='330' rx='28'/%3E%3Crect x='465' y='225' width='375' height='165' rx='10' fill='%23995a2b'/%3E%3Cpath d='M490 250H815 M490 275H815 M490 300H815 M490 325H815 M490 350H815' stroke='%2326130E' stroke-width='5'/%3E%3Ccircle cx='505' cy='450' r='34' fill='%23b77b3c'/%3E%3Ccircle cx='805' cy='450' r='34' fill='%23b77b3c'/%3E%3Crect x='580' y='420' width='150' height='18' rx='5' fill='%23d6a15d'/%3E%3C/g%3E%3Cg fill='none' stroke='%2326130E' stroke-width='28' stroke-linecap='round'%3E%3Cpath d='M150 410V280C150 110 380 110 380 280V410'/%3E%3C/g%3E%3Cg fill='%234b251c' stroke='%2326130E' stroke-width='10'%3E%3Crect x='108' y='365' width='85' height='135' rx='30' transform='rotate(-8 150 430)'/%3E%3Crect x='335' y='365' width='85' height='135' rx='30' transform='rotate(8 377 430)'/%3E%3C/g%3E%3Cpath d='M380 480C420 550 370 590 300 600' fill='none' stroke='%2326130E' stroke-width='12' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #4b251c;
+    font-family: 'Black Ops One', cursive;
+}
+
+p {
+    color: #26130E;
+    font-family: 'Bitter', serif;
+}
